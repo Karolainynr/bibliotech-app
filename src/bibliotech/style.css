@@ -1,0 +1,38 @@
+:root {
+--white: #fff;
+
+--gray-100: #e1e1e6;
+--gray-300 #c4c4cc;
+--gray-400 #8d8d99;
+--gray-500: #7c7c8a;
+--gray-600: #323238;
+--gray-700: #29292e;
+--gray-800: #202024;
+--gray-900: #121214;
+
+--green-380: #80b37e;
+--green-500: #00865AFF;
+--green-700: #015743;
+
+--red-300: #f75a68;
+--red-500: #ab222e;
+--red-700: #7a1921;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var{--gray-800};
+    color: var{--gray-100};
+    -webkit-font-smoothing: antialiased;
+    heigth: 100vh;
+    overflow: hidden;
+}
+
+body, input, textarea, button {
+    font: 400 16 px "Roboto", sans_serif;
+}
